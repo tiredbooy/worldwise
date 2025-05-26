@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -47,42 +35,6 @@
         "lng": "51.35511875152588"
       },
       "id": 98443198
-    },
-    {
-      "cityName": "Benicassim",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-05-25T15:23:18.289Z",
-      "notes": "Kiri tarin safar e omram",
-      "position": {
-        "lat": "40.04864272291728",
-        "lng": "0.06591796875000001"
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Agudo",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2025-05-25T15:28:18.216Z",
-      "notes": "kheyli kiri va tokhmi",
-      "position": {
-        "lat": "38.976492485539424",
-        "lng": "-4.899902343750001"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Gourma Rharous",
-      "country": "Mali",
-      "emoji": "🇲🇱",
-      "date": "2025-05-25T15:29:22.225Z",
-      "notes": "all pepole are nigger here",
-      "position": {
-        "lat": "15.792253570362446",
-        "lng": "-1.9335937500000002"
-      },
-      "id": 98443201
     }
   ]
 }
