@@ -1,16 +1,19 @@
-
-import Map from '../components/Map'
-import SideBar from '../components/SideBar'
-import styles from './AppLayout.module.css'
-
+import Map from "../components/Map";
+import SideBar from "../components/SideBar";
+import User from "../components/User";
+import { useAuth } from "../contexts/FakeAuthContext";
+import styles from "./AppLayout.module.css";
 
 function AppLayout() {
-    return (
-        <div className={styles.app}>
-            <SideBar />
-            <Map />
-        </div>
-    )
+  const { isAuthenticated } = useAuth();
+
+  return (
+    <div className={styles.app}>
+      <SideBar />
+      {isAuthenticated && <User />}
+      <Map />
+    </div>
+  );
 }
 
-export default AppLayout
+export default AppLayout;
