@@ -40,7 +40,6 @@ function AuthProvider({ children }) {
     dispatch({ type: "logout" });
   }
 
-  console.log(`User : ${user} , isAuthen : ${isAuthenticated}`);
 
   return (
     <AuthContext.Provider
